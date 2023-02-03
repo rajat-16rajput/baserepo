@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Calculator</title>
+    <link href="style.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="calculator">
+    <form>
+      <label for="input1">First number : </label>
+      <input type="textbox" name="input1" id="input1" /><br /><br />
+      <label for="input2">Second number : </label>
+      <input type="textbox" name="input2" id="input2" /><br /><br />     
+      <label for="displayValue">The result is: </label>
+      <input type="textbox" name="result" id="result" /><br /><br />
+    </form>
+
+    <button onClick="add()">+</button>
+
+    <button onClick="subtract()">-</button>
+
+    <button onClick="multiply()">x</button>
+
+    <button onClick="divide()">/</button>
+
+    <button onClick="clearForm()">C</button>
+
+  </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+
